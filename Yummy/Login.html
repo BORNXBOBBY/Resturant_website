@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+    <body >
+        <div class="card" id="card">
+          <div class="front">
+            <p class="login_word">LOG IN</p>
+            <img src="./assets/img/profilepic.png" alt="person picture">
+
+            <form action="session.php" method="post" enctype="multipart/form-data">
+
+              <input type="text" name="Email" placeholder="Email/UserId" class="f1"  required autocomplete="off">
+
+              <!-- <input type="text" name="UserId" placeholder="Email/UserId" class="f1"  required autocomplete="off"> -->
+              
+              <input type="text" name="Pass" placeholder="Password" class="f1"  required autocomplete="off">
+              
+              <!-- <input class="f1" type="submit" name="save" > -->
+              <button class="f1" name="save" value="clicked">Log in</button>
+              <p>Not registered? <span ><a href="index.php">Home page</a></span></p>
+              
+            </form>
+
+
+          </div>
+        </div>
+
+        <script src="script.js"></script>
+      </body>
+
+</html>
